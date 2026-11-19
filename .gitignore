@@ -1,0 +1,26 @@
+
+# Maven build output
+target/
+bin/
+
+# Eclipse / STS files
+.classpath
+.project
+.settings/
+.factorypath
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
